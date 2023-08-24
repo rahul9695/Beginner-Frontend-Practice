@@ -6,7 +6,7 @@
 * Write the boiler plate code.
 * Used h1 Tag for Resume title (Rahul Meena)
 * Used h2 tag for sub-headings.
-* Used a(anchor) tag</a> for links (LIinkedin and Github)
+* Used a(anchor) tag</a> for links (Linkedin and Github)
 * Used ul tag for unordered list.
 * Used ol tag for order list.
 * Used dl (description List), <dt> (description title, <dd> (description data) tags to showcase projects at bottom.
