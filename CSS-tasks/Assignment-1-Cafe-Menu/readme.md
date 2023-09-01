@@ -1,7 +1,7 @@
 # Live-Demo-Link👇
 https://rahul9695.github.io/Geekster-tasks/CSS-tasks/Assignment-1-Cafe-Menu/index.html
 
-Web page structure Explanation
+# Web page structure Explanation
 | Class            | Property-Value Pairs                           | Explanation                                             |
 | ---------------- | ---------------------------------------------- | ------------------------------------------------------- |
 | `body`           | `background-image: url(beans.jpg);`            | Sets the background image of the `body` element.       |
