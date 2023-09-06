@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Properties: CSS-Learning</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        body{
+            margin: 0;
+        }
+        .nav-container{
+            background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) );
+            padding: 0% 4%;
+        }
+
+        .portfolio{
+            display: inline-block;
+            margin: 2.5% 4%;
+            padding: 8px 20px;
+            color: white;
+        }
+
+        .active{
+            background-color: white;
+            color: black;
+        }
+
+        .top-banner{
+            background-image: url(https://wallpaperaccess.com/full/773786.jpg);
+            height: 500px;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .category{
+            background-color: white;
+            height: 500px;
+            width: 100%;
+            
+        }
+
+        .sub-cat{
+            display: inline-block;
+            height: 90%;
+            width: 29%;
+            margin: 2%;
+            background-size: cover;
+        }
+
+        .first{
+            background-image: url(https://images.unsplash.com/photo-1536895058696-a69b1c7ba34f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29uc3RydWN0aW9ufGVufDB8fDB8fHww&w=1000&q=80);
+        }
+
+        .second{
+            background-image: url(https://media.istockphoto.com/id/170961867/photo/construction-workers-working-on-construction-site.jpg?s=612x612&w=0&k=20&c=DyizE_4OvIw1xgOo5cNShX2Hg7tdYJUuSYl3-FWAqWU=);
+        }
+
+        .third{
+            background-image: url(https://cdn.pixabay.com/photo/2019/02/06/16/32/architect-3979490_640.jpg);
+        }
+        .bottom-section{
+            background-color: black;
+            height: 500px;
+            padding: 2%;
+        }
+
+        .bio{
+            color: white;
+        }
+
+        .bio-image{
+            height: 80%;
+            margin: 1%;
+            background-image: url(https://img.freepik.com/premium-photo/blue-prints-with-tool-building-construction-background3d-rendering_474511-176.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: bottom;
+        }
+
+        .sub{
+            display: inline-block;
+            width: 45%;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="portfolio active">Home</div>
+        <div class="portfolio">Services</div>
+        <div class="portfolio">About</div>
+        <div class="portfolio">Project</div>
+        <div class="portfolio">Contact</div>
+    </div>
+    <div class="top-banner"></div>
+    <div class="category">
+        <div class="sub-cat first"></div>
+        <div class="sub-cat second"></div>
+        <div class="sub-cat third"></div>
+    </div>
+    <div class="bottom-section">
+        <span class="sub bio">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo placeat consectetur quasi, molestiae omnis fugiat pariatur totam dolorum dolore! Vero consequatur quaerat magnam possimus ut quam veritatis, quisquam hic minima consequuntur doloremque, debitis dolorem mollitia totam alias eius provident illum? Nostrum exercitationem quidem iure? Architecto nulla nesciunt ad nobis aliquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem veritatis dolorem iste minima rerum similique atque laborum blanditiis, dolore ratione molestiae doloribus labore, nobis sunt earum iure, dolores rem animi quas sequi error consequuntur? Sint minus repellendus facere nemo nobis vitae itaque commodi et quaerat magni maxime quam deserunt quod quis illo atque accusamus explicabo id suscipit, sed a, error, inventore ut maiores? Necessitatibus obcaecati cum delectus quos incidunt, adipisci molestias laboriosam, cumque amet itaque rem fugit dolores totam id nemo non quae mollitia blanditiis cupiditate assumenda. Ex vitae libero deleniti, dignissimos ratione voluptates consequuntur quae expedita. In, temporibus facilis?
+        </span><span class="sub bio-image"></span>
+    </div>
+</body>
+</html>
