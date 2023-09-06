@@ -1,5 +1,5 @@
 # Hosted Link
-https://rahul9695.github.io/Geekster-tasks/HTML-tasks/Weekly-Test-2-HTML/index.html
+https://rahul9695.github.io/Beginner-Frontend-Practice/HTML-tasks/Weekly-Test-2-HTML/index.html
 
 ![Screenshot (487)](https://github.com/rahul9695/Geekster-tasks/assets/120627949/5906ddad-4b55-4402-8126-d39b0db2d766)
 
