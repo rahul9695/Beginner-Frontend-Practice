@@ -1,5 +1,5 @@
 # Demo Link
-https://rahul9695.github.io/Beginner-Frontend-Practice/CSS-tasks/Typography-Margin-Position Learning/index.html
+https://rahul9695.github.io/Beginner-Frontend-Practice/CSS-tasks/Typography-Margin-Position-Learning/index.html
 
 # Explanation
 
