@@ -1,5 +1,6 @@
 # Hosted Link
-https://rahul9695.github.io/Geekster-tasks/HTML-tasks/Assignment-3-Personal-Detail-Form/index.html
+https://rahul9695.github.io/Beginner-Frontend-Practice/HTML-tasks/Assignment-3-Personal-Detail-Form/index.html
+
 ![Screenshot (482)](https://github.com/rahul9695/Geekster-tasks/assets/120627949/d7411f63-7b23-4d99-a5f8-72d89182e84d)
 
 ![Screenshot (483)](https://github.com/rahul9695/Geekster-tasks/assets/120627949/66d7218c-2e0b-4299-acdd-2d509b2a0255)

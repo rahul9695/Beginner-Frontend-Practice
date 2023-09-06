@@ -1,4 +1,4 @@
-https://rahul9695.github.io/Geekster-tasks/HTML-tasks/Assignment-1-The-gallery-Cake/index.html
+https://rahul9695.github.io/Beginner-Frontend-Practice/HTML-tasks/Assignment-1-The-gallery-Cake/index.html
 # Resume Site Explaination
 
 ![Screenshot (472)](https://github.com/rahul9695/Geekster-tasks/assets/120627949/c7ce05d0-6a8a-4b7a-a08b-9ff6353f286a)

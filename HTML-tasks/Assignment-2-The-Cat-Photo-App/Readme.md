@@ -1,5 +1,6 @@
 # Hosted Link
-https://rahul9695.github.io/Geekster-tasks/HTML-tasks/Assignment-2-The-Cat-Photo-App/index.html
+https://rahul9695.github.io/Beginner-Frontend-Practice/HTML-tasks/Assignment-2-The-Cat-Photo-App/index.html
+
 ![Screenshot (475)](https://github.com/rahul9695/Geekster-tasks/assets/120627949/df95f4b0-4a0c-4667-bd8a-5f63bc3bcaa4)
 
 ![Screenshot (476)](https://github.com/rahul9695/Geekster-tasks/assets/120627949/6133c59f-3569-4fc5-8171-d9f9e38d3eb3)
