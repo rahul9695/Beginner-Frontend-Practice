@@ -1,5 +1,5 @@
 # Live-Demo-Link👇
-https://rahul9695.github.io/Geekster-tasks/CSS-tasks/Assignment-1-Cafe-Menu/index.html
+https://rahul9695.github.io/Beginner-Frontend-Practice/CSS-tasks/Assignment-1-Cafe-Menu/index.html
 
 # Web page structure Explanation
 | Class            | Property-Value Pairs                           | Explanation                                             |
