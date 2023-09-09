@@ -2,7 +2,9 @@
 
 https://rahul9695.github.io/Beginner-Frontend-Practice/CSS-tasks/Box-modal-learning/index.html
 
-# Explanation
+## Explanation
+
+![Screenshot (518)](https://github.com/rahul9695/Beginner-Frontend-Practice/assets/120627949/d7ad345b-caa8-4ab8-89e4-d1fa63fc3c07)
 
 # Box-Modal || CSS-Learning
 
