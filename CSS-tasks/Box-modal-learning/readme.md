@@ -50,5 +50,3 @@ The CSS styling for this document is contained within a `<style>` block in the H
 ## Usage
 
 This HTML document is a simple example of how CSS can be used to create boxes around various HTML elements. It's a useful technique for visually organizing and highlighting content on a webpage.
-
-Feel free to use and modify this code for your learning or development projects.
