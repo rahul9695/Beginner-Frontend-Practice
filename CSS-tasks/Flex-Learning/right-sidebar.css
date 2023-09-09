@@ -1,0 +1,4 @@
+.right-sidebar{
+    display: flex;
+    flex-grow: 1;
+}
