@@ -4,7 +4,7 @@ https://rahul9695.github.io/Beginner-Frontend-Practice/CSS-tasks/Flex-Learning/i
 
 # Project Explanation
 
-# CSS Styles for Sidebar and Game Cards
+## CSS Styles for Sidebar and Game Cards
 
 This CSS file contains styles for creating a sidebar and game cards for a web application. It makes use of various CSS classes and styles to achieve the desired layout and visual effects.
 
