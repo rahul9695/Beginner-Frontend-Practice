@@ -51,19 +51,25 @@
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 
-button{
+.top-banner-content a{
     z-index: 1;
     padding: 1.2% 3.5%;
     font-size: 18px;
     border-radius: 5px;
     border: none;
     margin-top: 4%;
+    background-color: white;
+    color: black;
+    height: max-content;
+    text-decoration: none;
 }
 
-button:hover{
-    background-color: black;
-    color: white;
+.top-banner-content a:hover{
+    background-color: transparent;
     cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    transition: ease 0.3s;
 }
 
 @media only screen and (max-width: 850px){
