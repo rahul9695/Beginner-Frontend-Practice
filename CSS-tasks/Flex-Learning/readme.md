@@ -2,7 +2,7 @@
 
 https://rahul9695.github.io/Beginner-Frontend-Practice/CSS-tasks/Flex-Learning/index.html
 
-#Project Explanation
+# Project Explanation
 
 # CSS Styles for Sidebar and Game Cards
 
