@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 @import "./left-sidebar.css";
 @import "./right-sidebar.css";
 
@@ -11,5 +11,5 @@
 .container{
     height: 100vh;
     display: flex;
-    background-color: blueviolet;
+    background: linear-gradient(32deg, rgba(200,250,255,1) 0%, rgba(191,231,235,1) 81%, rgba(255,255,255,1) 100%);
 }

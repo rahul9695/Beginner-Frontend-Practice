@@ -1,0 +1,30 @@
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.about-us h2{
+    font-size: 32px;
+}
+
+.about-us > p{
+    margin-bottom: 30px;
+}
+.about-us div{
+    padding: 30px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.our-team{
+    width: 100%;
+}
+
+.our-team ul{
+    margin-left: 18px;
+}

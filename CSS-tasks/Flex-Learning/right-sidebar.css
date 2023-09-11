@@ -1,4 +1,87 @@
 .right-sidebar{
     display: flex;
+    flex-direction: column;
     flex-grow: 1;
+    /* margin: 1% 0; */
+    border-radius: 20px;
+    justify-content: space-around;
+    padding: 10% 5%;
+    gap: 15%;
+    max-width: 800px;
+}
+
+.active-games{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.active-games h1{
+    font-size: 38px;
+    font-weight: 900;
+    color: rgb(54, 159, 180);
+}
+
+.radial-box{
+    width: 325px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 80%; */
+    min-width: 400px;
+    padding: 3%;
+    background-color: rgb(223, 252, 255);
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgb(155, 199, 207);
+}
+
+.card:hover{
+    transform: scale(1.01);
+    transition: ease 0.2s;
+    box-shadow: 0px 2px 15px rgb(155, 199, 207);
+    cursor: pointer;
+}
+
+.card > img{
+    height: 75px;
+    background-color: white;
+    border-radius: 20px;
+}
+.card .game-details{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.card .card-heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(54, 159, 180);
+}
+
+.card .percentage{
+    font-weight: 600;
+    color: grey;
+    font-size: 20px;
+}
+
+.game-details .game-version{
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(157, 157, 157);
+}
+.green{
+    background-color: rgb(105, 214, 214);
+    width: 100%;
 }

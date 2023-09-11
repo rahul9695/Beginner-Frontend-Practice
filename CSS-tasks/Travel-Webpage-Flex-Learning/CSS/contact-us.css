@@ -1,0 +1,96 @@
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 80px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.contact-us h2{
+    font-size: 32px;
+}
+
+.contact-us > p{
+    margin-bottom: 60px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    gap: 100px;
+}
+
+.info{
+    padding: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.info-align{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.info-align img{
+    height: 18px;
+    opacity: 0.5;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 2;
+    height: 100%;
+    padding: 0 10px;
+}
+
+form input, form textarea{
+    padding: 10px;
+    border: 1px solid lightgrey;
+    /* outline: none; */
+    outline-color: rgb(179, 179, 179);
+}
+
+form .submit{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-size: 18px;
+    max-width: 180px;
+    border-radius: 8px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 850px){
+    .info-container{
+        flex-direction: column;
+        height: 100%;
+        gap: 50px;
+    }
+
+    .info{
+        width: 100%;
+    }
+
+    form{
+        width: 100%;
+        gap: 20px;
+    }
+
+    form .submit{
+        max-width: 170px;
+    }
+}
