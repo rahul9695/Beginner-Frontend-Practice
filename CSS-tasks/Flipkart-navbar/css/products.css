@@ -1,0 +1,32 @@
+.products{
+    display: flex;
+    height: 120px;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 85%;
+    padding: 1% 0;
+    /* flex-wrap: wrap; */
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-weight: 500;
+}
+
+.category img{
+    width: 60px;
+    object-fit: cover;
+}
+
+.sub-cat-container{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.sub-cat-container svg{
+    margin-top: 2%;
+}

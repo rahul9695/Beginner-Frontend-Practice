@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Navbar || CSS-Flex-Learning</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-element-container">
+            <div class="logo-search-container">
+                <!-- flipkart logo  -->
+                <div class="logo">
+                    <em>Flipkart</em>
+                    <div class="explore-plus">
+                        <em>Explore</em>
+                        <em class="plus">Plus</em>
+                        <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/plus-brand-bc165b.svg" alt="plus-img">
+                    </div>
+                </div>
+                <!-- search input and icon  -->
+                <div class="search-input-container">
+                    <input class="input" type="search" placeholder="Search for products, brands and more">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="22" height="22" viewBox="0 0 24 24" stroke-width="2.5" stroke="#0070f0" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                        <path d="M21 21l-6 -6" />
+                      </svg>
+                </div>
+                <!-- login button  -->
+                <button>Login</button>
+            </div>
+            <div class="shortcuts">
+                <p>Become a Seller</p>
+                <div class="more">
+                    <p>More</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 9l6 6l6 -6" />
+                      </svg>
+                </div>
+                <div class="cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-cart" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M6 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                        <path d="M17 17h-11v-14h-2" />
+                        <path d="M6 5l14 1l-1 7h-13" />
+                      </svg>
+                    <p>Cart</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="products">
+        <div class="category">
+            <img src="./assets/offer-1.png" alt="top-offers-img">
+            <p>Top Offers</p>
+        </div>
+        <div class="category">
+            <img src="https://rukminim1.flixcart.com/flap/86/86/image/29327f40e9c4d26b.png?q=100" alt="grocery-img">
+            <p>Grocery</p>
+        </div>
+        <div class="category">
+            <img src="https://rukminim1.flixcart.com/flap/86/86/image/22fddf3c7da4c4f4.png?q=100" alt="mobile-img">
+            <p>Mobiles</p>
+        </div>
+        <div class="category">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/86/86/image/0d75b34f7d8fbcb3.png?q=100" alt="fashion-img">
+            <div class="sub-cat-container">
+                <p>Fashion</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M6 9l6 6l6 -6" />
+                  </svg>
+            </div>
+        </div>
+        <div class="category">
+            <img src="https://rukminim1.flixcart.com/flap/86/86/image/69c6589653afdb9a.png?q=100" alt="electronics-img">
+            <div class="sub-cat-container">
+                <p>Electronics</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M6 9l6 6l6 -6" />
+                  </svg>
+            </div>
+        </div>
+        <div class="category">
+            <img src="https://rukminim1.flixcart.com/flap/86/86/image/ab7e2b022a4587dd.jpg?q=100" alt="home-img">
+            <div class="sub-cat-container">
+                <p>Home</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M6 9l6 6l6 -6" />
+                  </svg>
+            </div>
+        </div>
+        <div class="category">
+            <img src="https://rukminim1.flixcart.com/flap/86/86/image/0ff199d1bd27eb98.png?q=100" alt="appliances-img">
+            <p>Appliances</p>
+        </div>
+        <div class="category">
+            <img src="https://rukminim1.flixcart.com/flap/86/86/image/71050627a56b4693.png?q=100" alt="travel-img">
+            <p>Travel</p>
+        </div>
+        <div class="category">
+            <img src="https://rukminim1.flixcart.com/flap/86/86/image/dff3f7adcf3a90c6.png?q=100" alt="beauty-toys-img">
+            <div class="sub-cat-container">
+                <p>Beauty, Toys & more</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M6 9l6 6l6 -6" />
+                  </svg>
+            </div>
+        </div>
+        <div class="category">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/86/86/image/05d708653beff580.png?q=100" alt="2-wheeler-img">
+            <p>2-Wheelers</p>
+        </div>
+    </div>
+</body>
+</html>
