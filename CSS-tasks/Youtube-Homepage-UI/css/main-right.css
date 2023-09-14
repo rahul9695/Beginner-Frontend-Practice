@@ -1,0 +1,49 @@
+.main-right{
+    padding: 15px;
+    width: 100%;
+    overflow-y: scroll;
+    border-top: 1px solid rgb(229, 229, 229);
+}
+
+.main-right>h2{
+    margin-bottom: 15px;
+}
+
+.cards-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+}
+
+.card > img{
+    width: 100%;
+}
+
+.card-details{
+    display: flex;
+    gap: 10px;
+}
+
+.card-details > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.card-detail-subset h4{
+    font-size: 18px;
+}
+
+.card-detail-subset p{
+    font-size: 14px;
+    color: grey;
+}
