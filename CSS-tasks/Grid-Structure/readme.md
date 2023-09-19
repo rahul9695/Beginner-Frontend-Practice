@@ -2,38 +2,36 @@
 
 https://rahul9695.github.io/Beginner-Frontend-Practice/CSS-tasks/Grid-Structure/index.html
 
-## HTML Explanation
-<!DOCTYPE html>: This declaration defines the document type and version of HTML being used, which is HTML5 in this case.
+# HTML Code Explanation
 
-<html lang="en">: The opening `<html>` tag represents the root element of the HTML document. The `lang` attribute is set to "en" to specify that the document is written in English.
+This is an HTML code snippet that represents the structure of a web page. It includes various HTML elements and attributes to define the content and layout of the page.
 
-<head>: The `<head>` section contains metadata about the document, such as character encoding, viewport settings, and links to external resources.
+## Document Structure
 
-<meta charset="UTF-8">: This meta tag sets the character encoding of the document to UTF-8, which is a widely used character encoding for handling various character sets and symbols.
+- `<!DOCTYPE html>`: This declaration specifies the document type and version of HTML being used (HTML5 in this case).
+- `<html lang="en">`: The root element of the HTML document, which specifies the language of the content (English).
+- `<head>`: This section contains metadata about the web page, such as character encoding and the page title.
+  - `<meta charset="UTF-8">`: Sets the character encoding of the document to UTF-8.
+  - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Defines the viewport settings for responsive web design.
+  - `<title>Grid-structure || CSS Learning</title>`: Sets the title of the web page displayed in the browser tab.
+  - `<link rel="stylesheet" href="./styles.css">`: Links an external CSS stylesheet to style the web page.
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">: This meta tag sets the viewport settings for responsive web design. It ensures that the page is initially displayed at 100% zoom level on all devices with different screen widths.
+## Body Content
 
-<title>Grid-structure || CSS Learning</title>: This sets the title of the HTML document, which is typically displayed in the browser's title bar or tab.
-
-<link rel="stylesheet" href="./styles.css">: This `<link>` element is used to link an external CSS stylesheet named "styles.css" to the HTML document. It applies styles defined in the linked CSS file to the HTML content.
-
-<body>: The `<body>` tag encloses the main content of the web page.
-
-<main>: The `<main>` element is used to define the main content section of the webpage. It's a semantic HTML5 element used for better document structure.
-
-Within the `<main>` element, there is a `<div>` with the class "item g1" and another with the class "item g2." These are likely used for layout purposes and can be styled using CSS.
-
-Inside the "item g1" `<div>`, there is a nested `<div>` with the class "nav" that seems to represent a navigation bar.
-
-Inside the "nav" `<div>`, there are several child `<div>` elements, each containing a `<button>` element and one containing an `<img>` element.
-
-The `<button>` elements likely represent navigation links, while the `<img>` element displays an image with an "M Logo." The image source URL has been truncated in the provided code.
-
-The `<button>` elements are typically used for navigation or user interaction, and they can be customized and styled using CSS.
-
-The `<img>` element displays an image, and its source URL points to a Twitter profile picture. The actual URL has been truncated in the provided code.
-
-That's the basic structure of the HTML document. The omitted content of the image source URLs and any additional styling specified in the "styles.css" file may affect the appearance and functionality of the web page.
+- `<body>`: The main content of the web page is contained within the `<body>` element.
+  - `<main>`: Represents the main content area of the page.
+    - `<div class="item g1">`: A container div with the class "item g1."
+      - `<div class="nav">`: A navigation container div.
+        - Several `<div>` elements containing buttons and an image for navigation:
+          - `<button>Home</button>`
+          - `<button>About</button>`
+          - `<img src="https://pbs.twimg.com/profile_images/2404391202/u5yv9wehu0hxbaywsj1k_400x400.png" width="80px" height="80px" alt="M Logo">`
+          - `<button>Menu</button>`
+          - `<button>Contact</button>`
+    - `<div class="item g2">`: Another container div with the class "item g2."
+      - An `<img>` element with a base64-encoded image source.
+  
+The provided HTML code represents a basic web page structure with navigation buttons and an image. The page is styled using an external CSS stylesheet ("styles.css") to control its appearance and layout.
 
 
 ## CSS Explanation 
