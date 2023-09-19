@@ -1,6 +1,7 @@
-@import "./css/header.css";
-@import "./css/main-left.css";
-@import "./css/main-right.css";
+@import "./header.css";
+@import "./main-left.css";
+@import "./main-right.css";
+
 *{
     box-sizing: border-box;
     margin: 0;
