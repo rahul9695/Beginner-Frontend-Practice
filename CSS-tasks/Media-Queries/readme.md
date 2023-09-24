@@ -1,6 +1,6 @@
 # Preview Link
 
-https://rahul9695.github.io/Geekster-tasks/CSS-tasks/Media-Queries/index.html
+https://rahul9695.github.io/Beginner-Frontend-Practice/CSS-tasks/Media-Queries/index.html
 
 ## HTML Explanation:
 
