@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            height: 100vh;
+            max-height: max-content;
+            display: grid;
+            place-content: center;
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .top-bg {
+            height: 25%;
+            width: 100%;
+            z-index: -1;
+            background-color: white;
+            position: absolute;
+            top: 0%;
+        }
+
+        .bottom-bg {
+            min-height: 75%;
+            z-index: -1;
+            width: 100%;
+            background-color: rgb(255, 204, 1);
+            position: absolute;
+            top: 25%;
+        }
+
+        .center-section {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            max-width: 928px;
+            padding: 20px;
+        }
+
+        .center-section img {
+            max-width: 500px;
+            max-height: 600px;
+            object-fit: cover;
+        }
+
+        .details {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: end;
+            padding-bottom: 8%;
+            text-align: center;
+            /* max-width: 400px; */
+        }
+
+        .details h1 {
+            font-size: 3.3rem;
+            line-height: 1.2;
+            font-weight: 600;
+        }
+
+        .details button {
+            background-color: black;
+            color: rgb(186, 186, 186);
+            padding: 0.6rem 0;
+            width: 180px;
+            margin-inline: auto;
+            cursor: pointer;
+        }
+
+        .details button:hover {
+            color: white;
+        }
+
+        .details p {
+            font-size: 1rem;
+        }
+
+        .details a {
+            cursor: pointer;
+            color: black;
+        }
+
+        .details a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .test-me {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 5%;
+            left: 2%;
+            background-color: rgb(0, 255, 242);
+            transform:perspective(100px) rotateX(40deg);
+            box-shadow: 0 0 0 0px;
+            animation-name: jump;
+            animation-duration: 1.5s;
+            animation-iteration-count: 10;
+            animation-timing-function: linear;
+            padding: 40px 5px 0 5px;
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 14px;
+            font-weight: 600;
+            display: block;
+        }
+
+        @keyframes jump {
+            0% { bottom: 5%;}
+            50% { bottom: 10%; box-shadow: 0 0 15px 5px;}
+            100% { bottom: 5%;}
+        }
+
+        @media only screen and (max-width: 900px) {
+            main {
+                height: max-content;
+            }
+            .center-section {
+                flex-direction: column;
+            }
+
+            .center-section img {
+                max-width: 350px;
+                max-height: 450px;
+            }
+
+            .details h1 {
+                font-size: 2.5rem;
+            }
+            .test-me {
+                display: none;
+            }
+        }
