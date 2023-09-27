@@ -1,5 +1,6 @@
-# Previwe Link
+# Preview Link
 
+https://rahul9695.github.io/Beginner-Frontend-Practice/Tailwind-Projects/Product-Card/index.html
 
 ## HTML Tags and Tailwind Classes Overview
 
