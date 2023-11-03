@@ -1,5 +1,5 @@
 ## Hosted link
-https://rahul9695.github.io/Geekster-tasks/JavaScript-projects/DOM-Project-1/index.html 
+https://rahul9695.github.io/Beginner-Frontend-Practice/JavaScript-projects/DOM-Project-1/index.html
 
 # DOM Project 1
 
