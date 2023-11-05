@@ -94,6 +94,7 @@ const cartDataUpdate = (productId, value) => {
 
             const cartProductDataContainer = document.createElement('div');
             cartProductDataContainer.classList.add("cart-product-wrapper");
+            console.log(cartProductDataContainer.dataset)
             cartProductDataContainer.dataset.productId = productId;
 
             const cartNameSpan = document.createElement('span');
@@ -124,13 +125,12 @@ const cartDataUpdate = (productId, value) => {
     total = Object.values(cartData).reduce((acc, item) => acc + item.quantity * item.price, 0);
     document.getElementById('total').innerText = total;
 
-    // if cartData become empty show "NO product in cart"
-    const cartLength = Object.values(cartData).length;
+    // if cartData become empty show "No product in cart"
+    const cartLength = Object.keys(cartData).length;
+    const noProduct = document.getElementById('no-product-in-cart');
     if(cartLength === 0) {
-        const noProduct = document.getElementById('no-product-in-cart');
         noProduct.style.display = "block";
     }else {
-        const noProduct = document.getElementById('no-product-in-cart');
         if(value === 1) noProduct.style.display = "none";
     }
 }

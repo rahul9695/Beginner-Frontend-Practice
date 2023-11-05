@@ -12,12 +12,13 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     gap: 5px;
     font-size: 20px;
     padding-inline: 5px;
 }
+
 
 #left-contianer {
     border: 5px solid gray;
@@ -103,4 +104,22 @@ h3 {
     margin-top: 5px;
     bottom: 5px;
     width: 100%;
+}
+
+@media screen and (max-width: 550px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    #left-contianer {
+        width: 100%;
+    }
+
+    #right-container {
+        width: 100%;
+    }
+
+    .counter-wrapper {
+        width: 90px;
+    }
 }
