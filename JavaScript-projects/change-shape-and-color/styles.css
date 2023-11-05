@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.triangle {
+    background-color: transparent;
+    position: relative;
+    left: 38px;
+    top: 40px;
+    width: 0;
+    height: 0;
+    border-bottom: 75px solid red;
+    border-right: 75px solid transparent;
+}
+
+#container div:not(:first-child) {
+    padding: 3px;
+    text-align: center;
+    margin-top: 20px;
+    color: or;
+}
+
+button {
+    cursor: pointer;
+}
+
