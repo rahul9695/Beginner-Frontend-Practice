@@ -1,6 +1,7 @@
 
 // -----------------------------------------------
 
+// product array
 const Products = [
     {   
         id: 1,
@@ -28,9 +29,6 @@ const Products = [
         price: 500
     }
 ];
-
-const cartData = {};
-let total = 0;
 
 const populateData = () => {
     const leftContainer = document.getElementById('productDataWrapper');
@@ -60,8 +58,6 @@ const decrementor = (productId) => {
     const counter = document.getElementById(`counter${productId}`);
     let value = parseInt(counter.innerText);
     if (value > 0) value--;
-    const noProduct = document.getElementById('no-product-in-cart');
-    if(value === 0) noProduct.style.display = "block";
     counter.innerText = value;
     cartDataUpdate(productId, value);
 }
@@ -70,11 +66,13 @@ const incrementor = (productId) => {
     const counter = document.getElementById(`counter${productId}`);
     let value = parseInt(counter.innerText);
     value++;
-    const noProduct = document.getElementById('no-product-in-cart');
-    if(value === 1) noProduct.style.display = "none";
     counter.innerText = value;
     cartDataUpdate(productId, value);
 }
+
+// cart object in which data is going to add or remove dynamically with cartDataUpdate() function
+const cartData = {};
+let total = 0;
 
 const cartDataUpdate = (productId, value) => {
     const productName = Products.find(product => product.id === productId).name;
@@ -87,7 +85,7 @@ const cartDataUpdate = (productId, value) => {
             const cartPriceQuantity = document.querySelector(`.cart-product-wrapper[data-product-id="${productId}"] span:last-child`);
             cartPriceQuantity.innerHTML = `${cartData[productId].quantity} x ${productPrice}`;
         } else {
-            // The item doesn't exist in the cart; add it.
+            // The item doesn't exist in the cart; add it.   
             cartData[productId] = {
                 name: productName,
                 price: productPrice,
@@ -125,4 +123,14 @@ const cartDataUpdate = (productId, value) => {
 
     total = Object.values(cartData).reduce((acc, item) => acc + item.quantity * item.price, 0);
     document.getElementById('total').innerText = total;
+
+    // if cartData become empty show "NO product in cart"
+    const cartLength = Object.values(cartData).length;
+    if(cartLength === 0) {
+        const noProduct = document.getElementById('no-product-in-cart');
+        noProduct.style.display = "block";
+    }else {
+        const noProduct = document.getElementById('no-product-in-cart');
+        if(value === 1) noProduct.style.display = "none";
+    }
 }
