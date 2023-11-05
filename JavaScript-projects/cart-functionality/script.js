@@ -94,7 +94,6 @@ const cartDataUpdate = (productId, value) => {
 
             const cartProductDataContainer = document.createElement('div');
             cartProductDataContainer.classList.add("cart-product-wrapper");
-            console.log(cartProductDataContainer.dataset)
             cartProductDataContainer.dataset.productId = productId;
 
             const cartNameSpan = document.createElement('span');
