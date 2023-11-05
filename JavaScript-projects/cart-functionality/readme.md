@@ -1,5 +1,5 @@
 ## Hosted Link
-
+https://rahul9695.github.io/Beginner-Frontend-Practice/JavaScript-projects/cart-functionality/index.html
 
 ## Project Overview:
 This project is a simple e-commerce webpage that allows users to view a list of products and add them to a shopping cart. The webpage is divided into two main sections: one for displaying the products and another for the shopping cart. Users can increment or decrement the quantity of each product in the cart, and the total price of the items in the cart is calculated and displayed.
