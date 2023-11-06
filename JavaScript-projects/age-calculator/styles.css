@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #8e4e4e;
+    color: #fff;
+}
+
+.dark-mode #output div {
+    background-color: #fff;
+    box-shadow: 2px 10px 25px rgba(0, 0, 0, 0.4);
+    color: black;
+}
+
+.dark-mode #input-container {
+    background-color: white;
+    color: black;
+}
+
+/* Light Mode Styles */
+.light-mode {
+    background-color: rgb(26, 128, 253);
+    color: #000;
+}
+
+.light-mode #output div {
+    background-color: #000;
+    box-shadow: 2px 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.light-mode #input-container {
+    background-color: black;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 50px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(26, 128, 253);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-inline: 40px;
+    padding-block: 10px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    color: black;
+}
+
+#input-container {
+    background-color: black;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    gap: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 25px rgb(0, 0, 0,0.4);
+}
+
+#input-container button {
+    padding-inline: 30px;
+    padding-block: 16px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#input-container input {
+    flex-grow: 1;
+    padding-inline: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#output {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 500px;
+}
+#output div {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    padding-inline: 30px;
+    padding-block: 20px;
+    color: white;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 10px 25px rgb(0, 0, 0,0.4);
+}
+
+#output div span:first-child{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#output div span:last-child{
+    color: gray;
+    font-size: 16px;
+}
+
+#toggleMode {
+    background-color: rgb(26, 128, 253);
+    color: white;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding-inline: 20px;
+    padding-block: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
