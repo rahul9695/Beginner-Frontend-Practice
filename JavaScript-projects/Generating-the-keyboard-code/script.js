@@ -6,13 +6,6 @@ const maxKeyHistoryLength = 8;
 const keyHistory = [];
 
 document.addEventListener('keydown', (event) => {
-    const key = event.key;
-    const code = event.code;
-    const ctrlKey = event.ctrlKey;
-    const altKey = event.altKey;
-    const shiftKey = event.shiftKey;
-    const metaKey = event.metaKey;
-    const keyCombination = `${ctrlKey ? 'Ctrl + ' : ''}${altKey ? 'Alt + ' : ''}${shiftKey ? 'Shift + ' : ''}${metaKey ? 'Meta + ' : ''}${key}`;
 
     keyCodeDisplay.style.display = "block";
     // Play a sound on keypress
@@ -22,7 +15,7 @@ document.addEventListener('keydown', (event) => {
     keyCodeDisplay.innerHTML = `<span id="keyCodeText">keycode :</span><span> ${event.keyCode}</span>`;
 
     // Store key history
-    keyHistory.push(keyCombination);
+    keyHistory.push(event.key);
     if (keyHistory.length > maxKeyHistoryLength) {
         keyHistory.shift(); // Remove the oldest entry when it exceeds the maximum length
     }
@@ -38,6 +31,6 @@ function updateKeyHistoryDisplay() {
 }
 
 function playKeyPressSound() {
-    const audio = new Audio('keypress.mp3'); // Replace 'keypress.mp3' with the path to your desired sound file
+    const audio = new Audio('keypress.wav');
     audio.play();
 }
