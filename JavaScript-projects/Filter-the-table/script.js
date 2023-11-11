@@ -39,6 +39,11 @@ const userData = [
         name : "Paris specialites",
         country : "France"
     },
+    {
+        id : 9,
+        name : "Rahul Meena",
+        country : "India"
+    },
 ]
 const table = document.getElementById('tbody');
 
