@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback UI</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main {
+            background-color: lightcyan;
+            display: flex;
+            color: darkgreen;
+            justify-content: center;
+            min-height: 100vh;
+            font-family: monospace;
+            align-items: center;
+        }
+
+        #main-container {
+            background: rgba(255, 255, 255, 0.3);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+            width: 85%;
+            max-width: 400px;
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="main-container">
+            <h1 class="heading">Feedback UI</h1>
+            <div class="ratings-container" id="ratings-container">
+                <div class="rating">
+                    <img src="https://cdn-icons-png.flaticon.com/512/166/166527.png">
+                    <small>Unhappy</small>
+                </div>
+                <div class="rating">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1791/1791385.png">
+                    <small>Neutral</small>
+                </div>
+                <div class="rating">
+                    <img src="https://cdn-icons-png.flaticon.com/512/166/166538.png">
+                    <small>Satisfied</small>
+                </div>
+            </div>
+            <button class="btn" id="btn">Send Review</button>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeaderBoard Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(78, 78, 78);
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            font-family: sans-serif;
+            width: 100%;
+            max-width: 925px;
+            margin: auto;
+            min-height: 100vh;
+        }
+
+        h1 {
+            margin-top: 2rem;
+            font-variant: small-caps;
+            font-variant: small-caps;
+            font-weight: 500;
+            font-size: 3rem;
+            color: white;
+            background: linear-gradient( 
+                to right, #21adf3, #efff08, 
+                #23cfc4, #eedd44); 
+            -webkit-text-fill-color: transparent; 
+            -webkit-background-clip: text; 
+            background-clip: text;
+        }
+
+        form {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+        }
+        input:not(#submit) {
+            width: 10rem;
+            padding-block: 0.7rem;
+            padding-left: 10px;
+            border: 1px solid rgb(255, 234, 0);
+            flex-grow: 1;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+        }
+
+        input:not(#submit)::placeholder{
+            color: rgb(190, 190, 190);
+        }
+
+        #submit {
+            width: 10em;
+            background: rgb(255, 234, 0);
+            padding-block: 0.7rem;
+            transition: all .5s ease;
+            border:2px solid rgb(255, 255, 255);
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+        #errorMsg {
+            color: red;
+            font-weight: 600;
+            display: none;
+        }
+        #scoreCardContainer {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .scoreCard {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            background-color: rgb(255, 234, 0);
+            padding-block: 2.5rem;
+            padding-inline: 10px;
+            border-radius: 5px;
+        }
+        .name-container {
+            width: 30%;
+        }
+
+        .submissionDate {
+            color: gray;
+            font-size: 0.85rem;
+        }
+
+        .playerCountry {
+            width: 20%;
+        }
+
+        .playerScore {
+            width: 20%;
+        }
+
+        .ctaContainer {
+            width: 20%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .ctaContainer button {
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+        }
+
+        .ctaContainer button:hover {
+            background-color: black;
+            color: white;
+            transform: scale(1.8);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>LeaderBoard</h1>
+        <form>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Country">
+            <input type="number" placeholder="Player Score">
+            <input id="submit" type="submit" value="Add Player">
+        </form>
+        <p id="errorMsg">All fields are required*</p>
+        <div id="scoreCardContainer">
+            <div class="scoreCard">
+                <div class="name-container">
+                    <p class="playerName">Rahul Meena</p>
+                    <p class="submissionDate">SEPTEMBER 10: 2023 1:10:24</p>
+                </div>
+                <p class="playerCountry">India</p>
+                <p class="playerScore">85</p>
+                <div class="ctaContainer">
+                    <button>🗑</button>
+                    <button>+5</button>
+                    <button>-5</button>
+                </div>
+            </div>
+            <div class="scoreCard">
+                <div class="name-container">
+                    <p class="playerName">Virat Kohli</p>
+                    <p class="submissionDate">OCTOBER 10: 2023 1:10:24</p>
+                </div>
+                <p class="playerCountry">India</p>
+                <p class="playerScore"> 80</p>
+                <div class="ctaContainer">
+                    <button>🗑</button>
+                    <button>+5</button>
+                    <button>-5</button>
+                </div>
+            </div>
+            <div class="scoreCard">
+                <div class="name-container">
+                    <p class="playerName">M.S. Dhoni</p>
+                    <p class="submissionDate">AUGUST 18: 2023 4:18:18</p>
+                </div>
+                <p class="playerCountry">India</p>
+                <p class="playerScore">75</p>
+                <div class="ctaContainer">
+                    <button>🗑</button>
+                    <button>+5</button>
+                    <button>-5</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
