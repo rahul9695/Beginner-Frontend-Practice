@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1499002238440-d264edd596ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+    background-size: cover;
+    overflow: hidden;
+}
+
+#clock-container {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#time {
+    margin-bottom: 10px;
+}
+
+#additional-info {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    width: max-content;
+    margin-inline: auto;
+    position: absolute;
+    bottom: 20px;
+}
+
+h1 {
+    font-size: 18px;
+    color: white;
+}
+
+#time-container {
+    display: flex;
+    gap: 5px;
+}
+
+#time {
+    display: flex;
+    gap: 15px;
+}
+
+#greeting {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#am-pm{
+    color: white;
+    height: max-content;
+    font-size: 18px;
+}
+
+.text {
+    font-size: 15px;
+    padding-block: 5px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* height: 20px; */
+}
+
+.time-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    color: white;
+}
+
+#hours, #minutes, #seconds {
+    position: relative;
+    top: 10px;
+    font-size: 3rem;
+}
