@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+.restaurant-container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.food-menu {
+    margin: 20px 0;
+}
+
+label {
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.loading {
+    display: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.order-result {
+    display: none;
+    margin-top: 20px;
+}
+
+#foodImage {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.order-id {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
