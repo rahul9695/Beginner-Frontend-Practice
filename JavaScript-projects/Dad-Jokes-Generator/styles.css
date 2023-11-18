@@ -32,7 +32,7 @@ main {
 h1 {
     font-size: 44px;
     letter-spacing: 5px;
-    text-shadow: 3px 3px rgb(222, 143, 143);
+    text-shadow: 3px 3px rgb(255, 255, 255);
 }
 
 #joke {
