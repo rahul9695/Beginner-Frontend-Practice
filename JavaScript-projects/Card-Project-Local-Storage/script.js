@@ -8,9 +8,17 @@ const addressValue = document.getElementById('addressValue');
 
 const storedUserInfo = localStorage.getItem("userInfo");
 
-if(storedUserInfo) {
+if(
+    storedUserInfo.firstName !== null && 
+    storedUserInfo.lastName !== null && 
+    storedUserInfo.country !== null && 
+    storedUserInfo.phoneNumber !== null &&
+    storedUserInfo.state !== null &&
+    storedUserInfo.city !== null &&
+    storedUserInfo.address !== null
+   ) {
     const userInfo = JSON.parse(storedUserInfo);
-    
+
     firstNameValue.innerText = userInfo.firstName;
     lastNameValue.innerText = userInfo.lastName;
     countryValue.innerText = userInfo.country;
